@@ -1,8 +1,19 @@
+import { Demo,Hero } from "./components";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <main>
+      <div className="main">
+        <div className="gradient"></div>
+      </div>
 
-export default App
+      <div className="app">
+          <Hero />
+          <Demo />
+        </div>
+    </main>
+  );
+};
+
+export default App;

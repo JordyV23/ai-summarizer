@@ -1,4 +1,4 @@
-import { Demo,Hero } from "./components";
+import { Demo, Footer, Hero } from "./components";
 import "./App.css";
 
 const App = () => {
@@ -9,9 +9,10 @@ const App = () => {
       </div>
 
       <div className="app">
-          <Hero />
-          <Demo />
-        </div>
+        <Hero />
+        <Demo />
+      </div>
+      <Footer />
     </main>
   );
 };
